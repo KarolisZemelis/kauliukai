@@ -9,13 +9,33 @@
   </head>
   <body>
     <header>
-      <h1>ROLL GAME</h1>
-      <button>Pradėti naują žaidimą</button>
+      <h1>device-width GAME</h1>
+      <button class="btn-new"><h4>Pradėti naują žaidimą</h4></button>
     </header>
     <main>
-      <div class="player1Container"></div>
-      <div class="diceContainer"></div>
-      <div class="player2Container"></div>
+      <section class="player">
+        <div class="total">
+          <h3>Žaidėjas 1</h3>
+          <h2>0</h2>
+          <div class="current"><h2>0</h2></div>
+        </div>
+      </section>
+      <section class="game-container">
+        <div class="imageContainer">
+          <img src="./images/dice-0.png" alt="" class="dice" />
+        </div>
+        <div class="btn-container">
+          <button class="btn-roll"><h4>Ridenti</h4></button>
+          <button class="btn-hold"><h4>Sustoti</h4></button>
+        </div>
+      </section>
+      <section class="player">
+        <div class="total">
+          <h3>Žaidėjas 2</h3>
+          <h2>0</h2>
+          <div class="current"><h2>0</h2></div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
