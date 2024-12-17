@@ -4,6 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dice game</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="/favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <meta name="apple-mobile-web-app-title" content="Dice" />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
     <link rel="stylesheet" href="style.css" />
     <script src="app.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -23,13 +38,13 @@
     </header>
 
     <main>
-      <section class="player">
+      <section class="player player-0">
         <div class="total">
           <h3>Žaidėjas 1</h3>
-          <h2>0</h2>
+          <h2 class="totalScore-0">0</h2>
         </div>
         <div class="current">
-          <h2>0</h2>
+          <h2 class="score-0">0</h2>
         </div>
       </section>
       <section class="game-container">
@@ -45,13 +60,13 @@
           </button>
         </div>
       </section>
-      <section class="player">
+      <section class="player player-1">
         <div class="total">
           <h3>Žaidėjas 2</h3>
-          <h2>0</h2>
+          <h2 class="totalScore-1">0</h2>
         </div>
         <div class="current">
-          <h2>0</h2>
+          <h2 class="score-1">0</h2>
         </div>
       </section>
     </main>
